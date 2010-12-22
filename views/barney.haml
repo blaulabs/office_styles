@@ -1,0 +1,86 @@
+#stage
+  #header	
+    #meta_area
+      #meta_bar
+        %ul
+          %li
+            %a(href="/") Toolbox
+          %li
+            %a(href="/") Niels Linnemann
+          %li
+            %a(href="/") Abmelden
+      .meta_buttons
+        %button.top Neuer Auftrag
+
+    #logo
+      .tech barney
+      .userfriendly Voucher Management
+
+    #nav_context
+      #nav_bar
+        %ul
+          %li
+            %a(href="#") Übersicht Aufträge
+          %li
+            %a.selected(href="#") Aufträge bearbeiten
+          %li
+            %a(href="#") Aufträge buchen
+          %li
+            %a(href="#") Voucher prüfen
+	
+      #subnav
+        %ul
+          %li
+            %a(href="#") Freigeben (3)
+          %li
+            %a(href="#") Warten auf Auslieferung (2)
+          %li
+            %a(href="#") Aktivieren (8)
+
+  #content
+    %h1 Aufträge freigeben
+    %p
+      Eingestellte Aufträge, die auf ihre Freigabe warten. Freigegebene Aufträge werden automatisch erzeugt und ausgeliefert.
+    %table
+      %tr
+        %th.selector &nbsp;
+        %th Name
+        %th Typ
+        %th Anzahl
+        %th Auslieferung
+        %th Auftrag von
+
+      %tr
+        %td.selector
+          %input(type="checkbox")
+        %td
+          %a(href="#") ComputerBild Aktion
+        %td eSIM
+        %td 5
+        %td 23.12.2010
+        %td Steven Hofman
+      %tr
+        %td.selector
+          %input(type="checkbox")
+        %td
+          %a(href="#") ComputerBild Aktion
+        %td eSIM
+        %td 5
+        %td 23.12.2010
+        %td Steven Hofman
+      %tr
+        %td.selector
+          %input(type="checkbox")
+        %td
+          %a(href="#") ComputerBild Aktion
+        %td eSIM
+        %td 5
+        %td 23.12.2010
+        %td Steven Hofman
+
+
+
+    %button Markierte Aufträge freigeben
+
+  #footer
+    Blau Mobilfunk GmbH
