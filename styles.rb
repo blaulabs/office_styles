@@ -12,3 +12,11 @@ end
 get '/barney' do
   haml :barney
 end
+
+get '/buttons' do
+  haml :buttons
+end
+
+get '/tables' do
+  haml :tables
+end

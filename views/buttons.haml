@@ -41,20 +41,20 @@
 
   #content
     
-    %h1 Styleguide Backoffice
+    %h1 Buttons
+    %h3 Standard Button
     %p
-      Hier entsteht der Styleguide für interne Frontends bei blau
+      %button Click Me
 
-    %h2 Inhalt
-    %ul
-      %li
-        %a(href="/buttons") Buttons
-      %li
-        %a(href="/tables") Tables
-      %li
-        %a(href="/oisi") Beispiel OISI
-      %li
-        %a(href="/barney") Beispiel Barney
+    %h3 Disabled Button (class="disabled")
+    %p
+      %button.disabled Can't click Me
+
+    %h3 Toplevel Button (class="top")
+    %p
+      %button.top Hero Button
+      %br
+      This button should only showup once on a page!
 
   #footer
     Blau Mobilfunk GmbH

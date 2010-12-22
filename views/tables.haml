@@ -1,0 +1,109 @@
+#stage
+  #header	
+    #meta_area
+      #meta_bar
+        %ul
+          %li
+            %a(href="#") Toolbox
+          %li
+            %a.important(href="#") Hinweise (2)
+          %li
+            %a(href="#") Username
+          %li
+            %a(href="#") Abmelden
+      .meta_buttons
+        %button.top Top-Level Action
+
+    #logo
+      .tech tech NaMe
+      .userfriendly Userfriendly Name
+
+    #nav_context
+      #nav_bar
+        %ul
+          %li
+            %a(href="#") Navigation Item
+          %li
+            %a.selected(href="#") Selected Navigation Item
+          %li
+            %a(href="#") Navigation Item
+          %li
+            %a(href="#") Navigation Item
+	
+      #subnav
+        %ul
+          %li
+            %a(href="#") Subnav Item
+          %li
+            %a(href="#") Subnav Item
+          %li
+            %a(href="#") Subnav Item
+
+  #content
+    
+    %h1 Tables
+    %h2 Simple Table
+    %p Use <code>&lt;tr class="head"&gt;</code> on your title column to avoid highlighting on <code>:hover</code>
+    %table
+      %tr.head
+        %th Title
+        %th Title
+      %tr
+        %td Content
+        %td Content
+      %tr
+        %td Content
+        %td Content
+      
+
+
+    %h2 Table with sortable columns and checkboxes
+    %p
+      Use <code>th.sortable</code> to get the small icon.
+      Use <code>.selector</code> on your first column, if you want to place checkboxes
+    %table
+      %tr.head
+        %th.selector &nbsp;
+        %th.sortable 
+          %a(href="#") Name
+        %th.sortable
+          %a(href="#") Typ
+        %th Anzahl
+        %th Auslieferung
+        %th Auftrag von
+
+      %tr
+        %td.selector
+          %input(type="checkbox")
+        %td
+          %a(href="#") ComputerBild Aktion
+        %td eSIM
+        %td 5
+        %td 23.12.2010
+        %td Steven Hofman
+      %tr
+        %td.selector
+          %input(type="checkbox")
+        %td
+          %a(href="#") ComputerBild Aktion
+        %td eSIM
+        %td 5
+        %td 23.12.2010
+        %td Steven Hofman
+      %tr
+        %td.selector
+          %input(type="checkbox")
+        %td
+          %a(href="#") ComputerBild Aktion
+        %td eSIM
+        %td 5
+        %td 23.12.2010
+        %td Steven Hofman
+
+
+
+  %button Markierte Aufträge freigeben
+
+
+  #footer
+    Blau Mobilfunk GmbH

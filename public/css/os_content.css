@@ -118,6 +118,14 @@ button:active {
 	background: rgb(26,156,205);
 }
 
+button.disabled {
+  color: #bbb;
+}
+
+button.disabled:hover {
+  /* TODO disable hover */
+}
+
 /* --- TABLES --- */
 
 	 
@@ -152,7 +160,7 @@ th {
 th.sortable {
   background: url('/css/sortable.png');
   background-repeat: no-repeat;
-  background-position: 5px 63%; /* left same as padding! */
+  background-position: 5px 65%; /* left same as padding! */
   padding-left: 13px; /* standard padding, plus bg-icon, plus 3px */
 }
 
@@ -165,3 +173,32 @@ th.sortable a:hover {
   color: #009EE0; /* standard link color */
   text-decoration: underline;
 }
+
+/* --- code / pre --- */
+pre {
+  background-color:#EEEEFF;
+  border:1px solid #DDDDDD;
+  margin:20px 10px;
+  overflow-x:auto;
+  padding:0.4em;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+}
+
+code, pre {
+  font-size:95%;
+  font:12px Monaco,sans-serif;
+}
+
+code {
+  background-color:#EEEEFF;
+  border:1px solid #DDDDDD;
+  padding:0 0.2em;
+}
+
+pre code {
+  border: 0;
+  padding: 0;
+}
+
+
