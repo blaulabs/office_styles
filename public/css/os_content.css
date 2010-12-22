@@ -34,7 +34,7 @@ h3 {
 button {
   margin: 0;
   padding: 5px 15px 5px 15px;
-  border: 1px solid rgb(125,125,125);
+  border: 1px solid rgb(190,190,190);
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -44,22 +44,21 @@ button {
       linear,
       left bottom,
       left top,
-      color-stop(0, rgb(125,125,125)),
-      color-stop(1, rgb(217,217,217))	
+      color-stop(0, rgb(200,200,200)),
+      color-stop(1, rgb(240,240,240))	
     );
 
   background: 
     -moz-linear-gradient(
       center bottom,
-      rgb(125,125,125) 0%,
-      rgb(217,217,217) 100%
+      rgb(200,200,200) 0%,
+      rgb(240,240,240) 100%
     );
 
   font-family: arial;
   font-weight: bold;
   font-size: 12px;
-  color: white;
-  text-shadow: rgba(20, 20, 20, 0.699219) 1px 1px 0px;
+  color: #666;
 }
 		
 button.top {
@@ -110,6 +109,9 @@ button:hover {
       rgb(26,156,205) 0%,
       rgb(105,205,243) 100%
     );
+
+  color: white;
+  text-shadow: rgba(20, 20, 20, 0.699219) 1px 1px 0px;
 }
   
 button:active {
