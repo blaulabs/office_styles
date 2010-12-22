@@ -42,10 +42,12 @@
     %p
       Eingestellte Aufträge, die auf ihre Freigabe warten. Freigegebene Aufträge werden automatisch erzeugt und ausgeliefert.
     %table
-      %tr
+      %tr.head
         %th.selector &nbsp;
-        %th Name
-        %th Typ
+        %th.sortable 
+          %a(href="#") Name
+        %th.sortable
+          %a(href="#") Typ
         %th Anzahl
         %th Auslieferung
         %th Auftrag von

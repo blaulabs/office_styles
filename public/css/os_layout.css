@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: url('bg_top.png');
+  background: url('/css/bg_top.png');
   background-repeat:repeat-x;
 }
 	

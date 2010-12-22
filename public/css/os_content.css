@@ -124,6 +124,10 @@ button:active {
 tr:hover{
 	background: #f0f0f0;
 }
+
+tr.head:hover {
+  background: none;
+}
 	 
 table {
   border-collapse: collapse;
@@ -144,4 +148,20 @@ th {
 	text-align: left;
 	border-bottom: 2px solid #ddd;
 }
-	
+
+th.sortable {
+  background: url('/css/sortable.png');
+  background-repeat: no-repeat;
+  background-position: 5px 63%; /* left same as padding! */
+  padding-left: 13px; /* standard padding, plus bg-icon, plus 3px */
+}
+
+th.sortable a {
+  color: #555; /* text color */
+  text-decoration: none;
+}
+
+th.sortable a:hover {
+  color: #009EE0; /* standard link color */
+  text-decoration: underline;
+}
