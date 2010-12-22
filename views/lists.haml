@@ -41,22 +41,34 @@
 
   #content
     
-    %h1 Styleguide Backoffice
-    %p
-      Hier entsteht der Styleguide für interne Frontends bei blau
+    %h1 Lists
+    %h3 Definition List
+    %p Please use <code>&lt;dl&gt;</code> and not <code>&lt;table&gt;</code> for showing detailed information. The ":" is added automatically to the labels. Please do always add units (e.g. Euro, Stück) to numbers for style and readability.
 
-    %h2 Inhalt
+    %dl
+      %dt Name
+      %dd Niels Linnemann
+      %dt Anzahl
+      %dd 1.000 Stück
+      %dt Preis
+      %dd 50.900 Euro
+      %dt Auftragstyp
+      %dd <a href="#">Kulanz</a>
+      %dt Liefertermin
+      %dd 24.12.2010, 15:30 Uhr
+
+    %h3 Unordered List
     %ul
-      %li
-        %a(href="/buttons") Buttons
-      %li
-        %a(href="/tables") Tables
-      %li
-        %a(href="/lists") Lists
-      %li
-        %a(href="/oisi") Beispiel OISI
-      %li
-        %a(href="/barney") Beispiel Barney
+      %li Melon
+      %li Apple
+      %li Bacon
+      %li Bacon, again
+
+    %h3 Ordered List
+    %ol
+      %li blarum
+      %li blirum
+      %li yorum
 
   #footer
     Blau Mobilfunk GmbH

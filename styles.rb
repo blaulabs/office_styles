@@ -20,3 +20,7 @@ end
 get '/tables' do
   haml :tables
 end
+
+get '/lists' do
+  haml :lists
+end

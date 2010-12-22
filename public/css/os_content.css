@@ -16,17 +16,22 @@ h3 {
   font-size: 16px;
 }
 
+p {
+  line-height: 1.4;
+}
+
 .right {
   float: right;
 }
-		 a {
-	   color: #009EE0;
-	   text-decoration: none;
-	 }
+
+a {
+  color: #009EE0;
+	text-decoration: none;
+}
 	 
-	 a:hover {
-	   text-decoration: underline;
-	 }
+a:hover {
+  text-decoration: underline;
+}
 	 
 
 /* --- BUTTONS --- */
@@ -201,4 +206,33 @@ pre code {
   padding: 0;
 }
 
+/* --- DL, Definition Lists --- */
+dl {
+  line-height: 1.8;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+dt, dd {
+  float: left;
+  margin: 0;
+  padding: 5px 0 0 0;
+  border-bottom: 1px dotted #aaa;
+}
+
+dt {
+  clear: both;
+  width: 100px;
+  font-weight: bold;
+}
+
+dt:after {
+  content: ":";
+}
+
+dd {
+  text-align: right;
+  width: 200px;
+}
 
