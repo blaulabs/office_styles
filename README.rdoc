@@ -1,2 +1,11 @@
 = blau Office Styles
-ho ho ho ...
+a tiny sinatra project with styleguide and examples.
+
+== How to?
+Download all sources and start it with:
+
+  ruby -rubygems styles.rb
+
+(needs sinatra and haml)
+
+Browse http://localhost:4567 afterwards.
